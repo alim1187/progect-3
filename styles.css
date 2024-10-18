@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    text-align: center;
+}
+
+.Service-head {
+    position: relative;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+
+.Service-title {
+    position: absolute;
+    top: 10px; 
+    left: 10px;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0; 
+}
+
+.Service-head p {
+    position: absolute;
+    top: 10px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    max-width: 600px;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #48555b;
+}
+
+
+.Service-btn {
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.Service-btn:hover {
+    background-color: #0056b3;
+}
+
+.Service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.Service-cards div {
+    background: #fff ;
+    padding: 15px;
+    border: 1px solid #e6e6e6;
+    width: 295px;
+    height: 330px;
+    margin: 15px;
+    color: #48555b;
+}
+
+.Service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+
+.Service-card {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    width: 300px;
+    margin: 15px;
+}
+
+.Service-card-content {
+    display: flex;
+    align-items: center;
+    color: #48555b;
+}
+
+.Service-card-content img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+.Service-card-content div {
+    text-align: left;
+}
+
+.Service-cards h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.Service-cards p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
